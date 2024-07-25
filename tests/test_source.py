@@ -1,6 +1,6 @@
 from src.hypot.source import hypot, sqrt
 
-def test_hypot(self):
+def test_hypot():
     test_a = 3
     test_b = 4
     expected_out = 5
@@ -9,7 +9,7 @@ def test_hypot(self):
     
     assert output == expected_out
     
-def test_sqrt(self):
+def test_sqrt():
     test_a = 4
     expected_out = 2
     
